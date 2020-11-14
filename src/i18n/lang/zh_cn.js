@@ -8,6 +8,7 @@ export default {
         teacherDetailTitle: "讲师详情",
         newsDetailTitle: "资讯详情",
         newsTitle: "资讯在线",
+        topTitle: "股你唔到",
         myCourseTitle: "我的课程",
         myOrderTitle: "我的订单",
         couponsTitle: "优惠券",
@@ -21,6 +22,7 @@ export default {
     },
     tabBar: {
         index: "首页",
+        top: "股你唔到",
         course: "港股课程",
         teacher: "慧悦讲师",
         information: "资讯在线",

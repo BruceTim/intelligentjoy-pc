@@ -29,6 +29,11 @@
                 {{ $t("tabBar.index") }}
               </router-link>
             </li>
+            <li @click="activeIndex='top'">
+              <router-link :to="{ name: 'top', params: {} }" :class="[activeIndex=='top'?'active':'']" >
+                 {{ $t("tabBar.top") }}
+              </router-link>
+            </li>
             <li @click="activeIndex='column';jumpPosi()">
                 <router-link :to="{ name: 'home', params: {} }" :class="[activeIndex=='column'?'active':'']" >
                 {{ $t("tabBar.column") }}
@@ -118,7 +123,7 @@
               {{ $t("footer.aboutUs") }}
             </router-link>
           </li> -->
-          
+
           <li :class="[activeIndex=='agreement'?'active':'']">
             <router-link :to="{ name: 'agreement', params: {} }">
               {{ $t("footer.agreement") }}
@@ -137,7 +142,7 @@
 
         </ul>
     </div>
-    
+
   </div>
 </template>
 
@@ -330,7 +335,7 @@ export default {
                         }
                     }
                     li:first-child {
-                        margin-right: 67px;
+                        margin-right: 33px;
                     }
                 }
             }

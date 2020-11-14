@@ -51,6 +51,17 @@ export default new Router({
             }
         },
         {
+            path: "/top",
+            name: "top",
+            meta: {
+                title: "topTitle"
+                // keepAlive:true
+            },
+            component: function(resolve) {
+                require(["@/page/top/top.vue"], resolve);
+            }
+        },
+        {
             path: "/newsDetail/:id",
             name: "newsDetail",
             meta: {
