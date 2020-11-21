@@ -55,9 +55,10 @@
               </router-link>
             </li>
             <li>
-                <router-link :to="{ name: 'aboutUs', params: {} }" :class="[activeIndex=='aboutUs'?'active':'']">
+                <!--<router-link :to="{ name: 'aboutUs', params: {} }" :class="[activeIndex=='aboutUs'?'active':'']">
                     {{ $t("footer.aboutUs") }}
-                </router-link>
+                </router-link>-->
+                <a href="/official">{{ $t("footer.aboutUs") }}</a>
             </li>
           </ul>
         </div>
