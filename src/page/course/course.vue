@@ -93,7 +93,7 @@ export default {
             banner: [],
             curData: {}, //当前显示数据
             curStatusData: [], //所有数据
-            count: 12, //单页显示数量
+            count: 1000, //单页显示数量
             curPage: [1, 1, 1], //当前页
             totalNum: [1, 1, 1] //总数据数
         };
