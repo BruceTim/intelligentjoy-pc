@@ -12,9 +12,15 @@
             </div>
           </div>
         </div>
-        <a href="javascript:;" class="right" @click="changeLag">
+        <div class="right">
+            <a target="_blank" href="/pr">慧悅財經公關</a>
+            <a href="javascript:;" @click="changeLag">
+                {{language}}
+            </a>
+        </div>
+        <!--<a href="javascript:;" class="right" @click="changeLag">
           {{language}}
-        </a>
+        </a>-->
       </div>
     </div>
     <div class="bottom">
@@ -296,9 +302,13 @@ export default {
                 }
             }
             .right {
-                font-size: 12px;
-                color: #999999;
-                margin-right: 10px;
+                a {
+                    font-size: 12px;
+                    color: #999999;
+                    margin-right: 10px;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
             }
         }
     }
