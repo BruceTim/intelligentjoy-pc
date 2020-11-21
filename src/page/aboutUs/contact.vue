@@ -15,7 +15,7 @@
         <p>
             <span class="tip">联系客服：</span>
             <span>whatsapp： (+852) 9409 0782</span>
-            <span>香港电话： (+852) 9409 0782</span>
+            <span>香港电话： (+852) 9409 0782 / (+852) 3618 8460</span>
             <span>内地电话： (+86) 0755 26718880</span>
             <span>電郵: it@intelligentjoy.com</span>
         </p>
