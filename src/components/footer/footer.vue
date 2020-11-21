@@ -2,7 +2,12 @@
   <div class="footer">
     <div class="centerBox">
       <div class="left">
-        <p>Copyright©2017 www.intelligentjoy.com All Right | 粤ICP备17088073号</p>
+        <p>
+            Copyright©2017 www.intelligentjoy.com All Right
+            <br/>
+            <br/>
+            本網站所載之所有內容均受有關版權所保護，版權或許可使用權均屬本網站慧悅財經所有，未經書面授權以任何方式使用轉載、複製、重制、或使用本網站的內容，必追究相關行為主體的法律責任的權利。
+        </p>
       </div>
       <div class="right">
         <a href="javascript:;">
